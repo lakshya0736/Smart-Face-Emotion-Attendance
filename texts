@@ -166,3 +166,18 @@ Person name
 Emotion
 
 Attendance logs
+
+
+
+How to run:
+python real_time_attendance.py
+
+
+or with FastAPI UI:
+
+uvicorn main:app --reload
+
+
+Then open:
+
+http://127.0.0.1:8000
