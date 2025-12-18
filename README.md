@@ -4,6 +4,8 @@ A real-time AI-powered attendance system that uses Face Recognition + Facial Emo
 
 This project integrates Deep Learning, Computer Vision, and Web APIs to deliver a fully automated, contactless attendance solution.
 
+
+
 🚀 Features
 
 ✔ Real-time face detection using MediaPipe
@@ -14,6 +16,8 @@ This project integrates Deep Learning, Computer Vision, and Web APIs to deliver 
 ✔ Backend powered by FastAPI
 ✔ Camera opens only on user action
 ✔ Attendance stored in CSV (can be extended to DB)
+
+
 
 🧠 System Architecture
 User → Web Portal → FastAPI Backend
@@ -27,6 +31,8 @@ User → Web Portal → FastAPI Backend
        Emotion Detection (CNN)
                  ↓
        Attendance Marked (CSV)
+
+
 
 🛠 Tech Stack
 🔹 Backend
@@ -60,6 +66,7 @@ JavaScript (Fetch API)
 FaceNet (128-D embeddings)
 
 CNN (FER-2013 emotion dataset)
+
 
 
 📸 How Attendance Works
@@ -134,7 +141,7 @@ Classifier: SVM
 
 Lakshya Srivastav
 Computer Vision & Deep Learning Project
-Final Year / Portfolio Project
+
 
 ⭐ Acknowledgements
 
